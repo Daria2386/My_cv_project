@@ -115,8 +115,9 @@ letter-spacing: 2px;
     justify-content: space-around;
 }
 .contactsWrapper {
+    margin-top: 400px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 0.5fr 2.5fr;
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -127,3 +128,14 @@ letter-spacing: 2px;
     .div3 { grid-area: 2 / 2 / 3 / 3; }
     .div4 { grid-area: 3 / 2 / 4 / 3; }
     .div5 { grid-area: 4 / 2 / 5 / 3; }
+
+.photoWrapper{
+    margin-left: auto;
+    
+    
+}
+    .myPhoto{
+        width: 150px;
+        height: 200px;
+       
+    }
