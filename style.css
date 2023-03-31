@@ -1,6 +1,6 @@
 
 *{
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 html{
     width: 100%;
@@ -138,4 +138,31 @@ letter-spacing: 2px;
         width: 150px;
         height: 200px;
        
+    }
+    .linkWrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .githubIcon{
+        background-image:url(/assets/icons/Octicons-mark-github.svg) ;
+    }
+    .linkedinIcon{
+        background-image: url(/assets/icons/LinkedIn_icon.svg.png);
+    }
+    .phoneIcon{
+        background-image: url(/assets/icons/smartphone-icon-design-phone-symbol-free-vector.webp);
+    }
+    .contactLink{
+        display: block;
+        text-decoration: none;
+        cursor: pointer;
     }
